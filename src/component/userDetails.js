@@ -29,7 +29,7 @@ function UserDetails({ users }) {
               <Card.Title>- company: {user.company.name}</Card.Title>
               <Card.Title>- website: {user.website}</Card.Title>
               <Card.Title>- address:</Card.Title>
-              <ul aria-label="-address:">
+              <ul aria-label="address:">
                 <Card.Title>
                   <li>street: {user.address.street}</li>
                 </Card.Title>

@@ -13,6 +13,9 @@ function App() {
 
 
     <Router>
+      {error ? (
+        <p>{error}</p> 
+      ) : (
       <div className="container" >
       <Routes>
 
@@ -24,7 +27,7 @@ function App() {
           </Route>
 
       </Routes>
-        </div>
+        </div>)}
     </Router>
 
   );
