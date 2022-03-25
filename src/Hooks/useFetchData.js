@@ -17,7 +17,9 @@ const useFetchdata = () => {
     return () => {
       fetchData();
     };
-  }, []);
+  }, 
+  []);
+  console.log(users);
   return { users, error };
 };
 export default useFetchdata;
