@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 const UserCard = ({ users }) => {
   return (
-    <>
+    <> <div className="container">
+      <h1>Users Lists</h1>
+    <div className="user-container">
       {users &&
         users.map((user) => (
           <Card
@@ -33,6 +35,8 @@ const UserCard = ({ users }) => {
             </Card.Body>
           </Card>
         ))}
+      </div>
+    </div>
     </>
   );
 };

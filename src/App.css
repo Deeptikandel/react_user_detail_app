@@ -1,4 +1,13 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+   margin: 4rem auto;
+}
 .container {
+  text-align: center;
+  margin: 4rem auto;
+}
+.user-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -15,7 +24,7 @@
 .user-details {
   align-items: center;
   border-radius: 15px;
-  width: 70%;
+  width: 50%;
   height: 100%;
   margin: 5rem 10rem;
   padding: 2rem;

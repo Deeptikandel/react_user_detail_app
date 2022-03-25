@@ -16,7 +16,7 @@ function App() {
       {error ? (
         <p>{error}</p> 
       ) : (
-      <div className="container" >
+      <div className="wrapper" >
       <Routes>
 
           <Route exact path="/" element={<UserCard users={users} />}>
